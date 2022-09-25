@@ -21,7 +21,7 @@
     <replaceproperty src="bundle.folder" dest="bundle.version" replace="${bundle.name}" with=""/>
 
     <getmoduleuntouched name="${bundle.name}" version="${bundle.version}" propSrcDest="bundle.srcdest" propSrcFilename="bundle.srcfilename"/>
-    <assertfile file="${bundle.srcdest}/Console.exe"/>
+    <assertfile file="${bundle.srcdest}/ConEmu.exe"/>
 
     <!-- Temp copy -->
     <copy todir="${bundle.srcdest}" overwrite="true">

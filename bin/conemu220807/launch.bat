@@ -13,7 +13,5 @@ if "%PROCESSOR_ARCHITECTURE%"=="x86" (
     set architecture=64
 )
 
-set PATH=%CONSOLE_ROOT%\vendor\gnuwin32;%PATH%
-
 :: Run clink
 "%CONSOLE_ROOT%\vendor\clink\clink_x%architecture%.exe" inject --quiet --profile "%CONSOLE_ROOT%\config" --scripts "%CONSOLE_ROOT%\vendor"

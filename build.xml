@@ -49,6 +49,8 @@
             <assertfile file="${clink.path}/clink.bat"/>
           </then>
         </if>
+      </then>
+    </if>
 
     <delete dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
     <mkdir dir="${bundle.tmp.prep.path}/${bundle.folder}"/>
